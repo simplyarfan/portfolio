@@ -13,7 +13,6 @@ const projects = [
     description: "Smart Glasses for Real-Time Transcription and Emotional Awareness",
     year: "2024",
     tags: ["Swift", "iOS", "CoreML", "AVFoundation", "NLTagger", "BLE", "AR Glasses"],
-    github: "https://github.com/simplyarfan",
     hasImages: true,
     content: `Senior Design Capstone Project at College of Engineering – Department of Computer Science and Engineering. LenScript is an assistive smart glasses system designed to provide real-time speech-to-text transcription combined with sentiment detection and speaker identification.
 
