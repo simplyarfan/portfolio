@@ -81,7 +81,7 @@ RECOGNITION_SECTION`,
     description: "Enterprise AI Platform for HR, Finance & Sales Intelligence",
     year: "2025-Present",
     tags: ["Next.js", "React", "Node.js", "AI/ML", "Enterprise", "Full-Stack"],
-    github: "https://github.com/simplyarfan",
+    github: "https://github.com/simplyarfan/simpleAI",
     content: `An in-house enterprise AI hub currently in development, designed to revolutionize how businesses leverage artificial intelligence across HR, Finance, and Sales departments.
 
 ## The Vision
@@ -116,7 +116,7 @@ Active development with core modules implemented. Each dashboard is being refine
     description: "Modern portfolio website showcasing projects and technical expertise",
     year: "2025",
     tags: ["Next.js", "React", "TypeScript", "Framer Motion", "TailwindCSS"],
-    github: "https://github.com/simplyarfan/personal-website",
+    github: "https://github.com/simplyarfan/portfolio",
     content: `A modern, minimalist portfolio website built to showcase my projects, technical skills, and professional journey. This very website you're viewing!
 
 ## The Story
@@ -204,18 +204,6 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
               <div className="text-accent/50 text-sm">
                 Role: {project.role}
               </div>
-            )}
-
-            {project.github && (
-              <Link
-                href={project.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 text-accent/50 hover:text-primary transition-colors text-sm"
-              >
-                <Github className="w-4 h-4" />
-                View on GitHub
-              </Link>
             )}
           </div>
 
@@ -713,6 +701,21 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                         </p>
                       </div>
                     </div>
+
+                    {/* GitHub Link */}
+                    {project.github && (
+                      <div className="flex justify-center">
+                        <Link
+                          href={project.github}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-3 px-6 py-3 border border-primary/30 rounded-lg text-primary hover:bg-primary hover:text-black transition-all duration-300 font-sans"
+                        >
+                          <Github className="w-5 h-5" />
+                          View on GitHub
+                        </Link>
+                      </div>
+                    )}
                   </div>
                 );
               }

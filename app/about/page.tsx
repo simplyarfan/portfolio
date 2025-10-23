@@ -671,7 +671,10 @@ function ExperienceItem({ exp, index, expanded, onToggle, onImageClick }: any) {
                         <div 
                           key={i} 
                           className="relative h-64 rounded-lg border border-primary/20 overflow-hidden cursor-pointer hover:border-primary/50 transition-all"
-                          onClick={() => onImageClick(img)}
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            onImageClick(img);
+                          }}
                         >
                           <Image
                             src={img}

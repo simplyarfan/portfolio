@@ -141,7 +141,8 @@ export default function Home() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.5 }}
-              className="text-accent/60 text-sm tracking-[0.2em] font-sans uppercase flex items-center justify-center gap-2"
+              className="text-accent/60 font-sans uppercase flex flex-wrap items-center justify-center gap-2"
+              style={{ fontSize: "clamp(0.65rem, 2vw, 0.875rem)", letterSpacing: "0.2em" }}
             >
               <span className="rotating-words">
                 <span className="rotating-word">DEVELOPER</span>
