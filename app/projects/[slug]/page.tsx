@@ -868,12 +868,30 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
               });
               
               return (
-                <p key={index} className="text-accent/70 leading-relaxed text-base" dangerouslySetInnerHTML={{ __html: processedText }} />
+                <p key={index} className="text-base leading-relaxed">
+                  {paragraph}
+                </p>
               );
             })}
-          </div>
 
-          {/* Images Section for LenScript */}
+            {/* GitHub Link - Show for all projects that have a github URL */}
+            {project.github && (
+              <div className="flex justify-center mt-16">
+                <Link
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 px-6 py-3 border border-primary/30 rounded-lg text-primary hover:bg-primary hover:text-black transition-all duration-300 font-sans"
+                >
+                  <Github className="w-5 h-5" />
+                  View on GitHub
+                </Link>
+              </div>
+            )}
+          </div>
+        </motion.div>
+
+        {/* Images Section for LenScript */}
           {project.hasImages && project.slug === 'lenscript' && (
             <div className="mt-16">
               <details className="border border-primary/20 rounded-lg group">
@@ -910,7 +928,6 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
               </details>
             </div>
           )}
-        </motion.div>
 
         {/* Footer Navigation */}
         <motion.div

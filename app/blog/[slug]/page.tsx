@@ -125,7 +125,7 @@ const blogPosts: Record<string, {
     date: "October 23, 2025",
     readTime: "6 min read",
     tags: ["Life", "Career", "Self-Discovery"],
-    heroImage: "/images/blog_postgrad.jpeg",
+    heroImage: "/images/blog_postgrad.JPEG",
     content: (
       <>
         <p className="text-accent/80 leading-relaxed text-lg">
