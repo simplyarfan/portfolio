@@ -41,7 +41,7 @@ const technicalExperiences = [
     type: "Part-time",
     description: "Collaborated with a PhD researcher on a blockchain project for healthcare.",
     tags: ["Blockchain", "Solidity", "Healthcare"],
-    details: "» Collaborated with a PhD researcher on a blockchain project for healthcare, developing a Solidity-based vaccine storage monitoring system.\n» Integrated Oracle's Provable Service to automate real-time data collection and temperature alerts for vaccine security.\n» Contributed to innovative blockchain applications in healthcare, bridging academic research with practical use cases.",
+    details: "» Collaborated with a PhD researcher on a blockchain project for healthcare, developing a Solidity-based vaccine storage monitoring system.\n» Integrated Oracle&apos;s Provable Service to automate real-time data collection and temperature alerts for vaccine security.\n» Contributed to innovative blockchain applications in healthcare, bridging academic research with practical use cases.",
     images: [],
     logo: "/images/ausharjah_logo.jpeg",
   },
@@ -70,7 +70,7 @@ const nonTechnicalExperiences = [
     type: "Full-time",
     description: "Built and sustained international partnerships with universities, sponsors, and institutions.",
     tags: ["Leadership", "Communication", "Public Outreach"],
-    details: "» Built and sustained international partnerships with universities, sponsors, and institutions, strengthening AUSMUN's global presence in the Model UN circuit.\n» Directed global branding and promotion efforts across digital, media, and press channels, ensuring consistent communication and international visibility.\n» Coordinated cross-team collaboration and leveraged stakeholder feedback to align outreach with AUSMUN's long-term objectives while resolving external conflicts.",
+    details: "» Built and sustained international partnerships with universities, sponsors, and institutions, strengthening AUSMUN&apos;s global presence in the Model UN circuit.\n» Directed global branding and promotion efforts across digital, media, and press channels, ensuring consistent communication and international visibility.\n» Coordinated cross-team collaboration and leveraged stakeholder feedback to align outreach with AUSMUN&apos;s long-term objectives while resolving external conflicts.",
     images: ["/images/deputydirector1.jpeg", "/images/deputydirector2.jpeg"],
     logo: "/images/ausmun_logo.jpeg",
   },
@@ -83,7 +83,7 @@ const nonTechnicalExperiences = [
     type: "Full-time",
     description: "Advanced from Vice President to President, overseeing strategic planning and execution of academic events.",
     tags: ["Leadership", "Event Planning", "Communication"],
-    details: "» Advanced from Vice President to President, overseeing strategic planning and execution of academic events, workshops, and seminars that elevated neuroscience awareness across campus.\n» Expanded the society's professional network by connecting members with neuroscience experts and fostering interdisciplinary collaborations with other clubs and departments.\n» Strengthened organizational growth through funding, recruitment, and mentorship, enhancing visibility, ensuring continuity, and solidifying the society's reputation in the academic community.",
+    details: "» Advanced from Vice President to President, overseeing strategic planning and execution of academic events, workshops, and seminars that elevated neuroscience awareness across campus.\n» Expanded the society&apos;s professional network by connecting members with neuroscience experts and fostering interdisciplinary collaborations with other clubs and departments.\n» Strengthened organizational growth through funding, recruitment, and mentorship, enhancing visibility, ensuring continuity, and solidifying the society&apos;s reputation in the academic community.",
     images: [],
     logo: "/images/ausharjah_logo.jpeg",
   },
@@ -133,9 +133,9 @@ const nonTechnicalExperiences = [
     period: "Apr 2024 - May 2024",
     location: "On-site",
     type: "Full-time",
-    description: "Built partnerships with universities, advocacy groups, and stakeholders to expand HECD's role in higher education climate dialogue.",
+    description: "Built partnerships with universities, advocacy groups, and stakeholders to expand HECD&apos;s role in higher education climate dialogue.",
     tags: ["Public Relations", "Communication", "Leadership"],
-    details: "» Built partnerships with universities, advocacy groups, and stakeholders to expand HECD's role in higher education climate dialogue.\n» Coordinated PR initiatives with conference organizers and departments, ensuring alignment with HECD's mission and strategic objectives.\n» Served as a bridge for feedback and conflict resolution, safeguarding HECD's reputation and fostering constructive engagement.",
+    details: "» Built partnerships with universities, advocacy groups, and stakeholders to expand HECD&apos;s role in higher education climate dialogue.\n» Coordinated PR initiatives with conference organizers and departments, ensuring alignment with HECD&apos;s mission and strategic objectives.\n» Served as a bridge for feedback and conflict resolution, safeguarding HECD&apos;s reputation and fostering constructive engagement.",
     images: [],
     logo: "/images/hecduae_logo.jpeg",
   },
@@ -148,7 +148,7 @@ const nonTechnicalExperiences = [
     type: "Full-time",
     description: "Established relationships with institutions and sponsors to strengthen AUSMUN's position within the Model UN circuit.",
     tags: ["External Relations", "Leadership", "Communication"],
-    details: "» Established relationships with institutions and sponsors to strengthen AUSMUN's position within the Model UN circuit.\n» Promoted AUSMUN's branding across social and press channels, ensuring visibility and recognition in international forums.\n» Supported cross-department collaboration, external feedback integration, and dispute resolution to maintain organizational credibility.",
+    details: "» Established relationships with institutions and sponsors to strengthen AUSMUN&apos;s position within the Model UN circuit.\n» Promoted AUSMUN&apos;s branding across social and press channels, ensuring visibility and recognition in international forums.\n» Supported cross-department collaboration, external feedback integration, and dispute resolution to maintain organizational credibility.",
     images: ["/images/externalrelations1.jpeg", "/images/externalrelations2.JPG"],
     logo: "/images/ausmun_logo.jpeg",
   },
@@ -246,11 +246,11 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-3xl md:text-4xl leading-tight mb-8" style={{ fontFamily: "var(--font-space-grotesk), sans-serif" }}>
-                I'm <span className="text-primary font-semibold">Syed Arfan Hussain</span>, a developer who loves building things that live on the internet.
+                I&apos;m <span className="text-primary font-semibold">Syed Arfan Hussain</span>, a developer who loves building things that live on the internet.
               </p>
               <p className="text-xl text-accent/70 leading-relaxed" style={{ fontFamily: "var(--font-space-grotesk), sans-serif" }}>
-                I'm passionate about creating <span className="text-primary">unique digital experiences</span> that are minimal, functional, and memorable. 
-                Whether it's crafting smooth animations, building interactive elements, or just making things look and feel awesome, I'm always up for the challenge.
+                I&apos;m passionate about creating <span className="text-primary">unique digital experiences</span> that are minimal, functional, and memorable. 
+                Whether it&apos;s crafting smooth animations, building interactive elements, or just making things look and feel awesome, I&apos;m always up for the challenge.
               </p>
             </div>
             <div className="relative h-[400px] rounded-xl border border-primary/20 overflow-hidden">

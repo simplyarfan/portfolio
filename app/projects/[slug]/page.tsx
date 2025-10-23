@@ -21,9 +21,9 @@ Developed as a capstone project to enhance accessibility for the hearing-impaire
 
 ## Project Overview
 
-LenScript bridges the communication gap for individuals with hearing impairments by providing real-time transcription with emotional context directly on AR glasses. The system processes audio entirely on-device using Apple's frameworks, ensuring privacy and minimal latency.
+LenScript bridges the communication gap for individuals with hearing impairments by providing real-time transcription with emotional context directly on AR glasses. The system processes audio entirely on-device using Apple&apos;s frameworks, ensuring privacy and minimal latency.
 
-Key Innovation: Unlike existing solutions, LenScript combines speech recognition with sentiment analysis and speaker identification, providing not just what is being said, but how it's being said and who is saying it.
+Key Innovation: Unlike existing solutions, LenScript combines speech recognition with sentiment analysis and speaker identification, providing not just what is being said, but how it&apos;s being said and who is saying it.
 
 ## Key Features
 
@@ -86,7 +86,7 @@ RECOGNITION_SECTION`,
 
 ## The Vision
 
-Nexus isn't just another enterprise tool—it's a complete reimagining of how businesses interact with AI. By consolidating HR, Finance, and Sales intelligence into a single, cohesive platform, we're eliminating the chaos of juggling multiple systems and creating a unified command center for business operations.
+Nexus isn&apos;t just another enterprise tool—it&apos;s a complete reimagining of how businesses interact with AI. By consolidating HR, Finance, and Sales intelligence into a single, cohesive platform, we&apos;re eliminating the chaos of juggling multiple systems and creating a unified command center for business operations.
 
 ## Platform Modules
 
@@ -139,7 +139,7 @@ PORTFOLIO_BUILD_STORY
 
 PORTFOLIO_METRICS
 
-This portfolio isn't just a showcase—it's proof that with the right tools, clear vision, and a bit of AI magic, you can build something that stands out in a sea of templates.`,
+This portfolio isn&apos;t just a showcase—it&apos;s proof that with the right tools, clear vision, and a bit of AI magic, you can build something that stands out in a sea of templates.`,
     award: "Built with Windsurf + Claude Sonnet 3.5",
     role: "Designer & Developer",
   },
@@ -348,7 +348,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                 const principles = [
                   { icon: <Sparkles className="w-12 h-12" />, title: "Minimal", desc: "Every pixel has a purpose. No clutter, no noise—just clean, intentional design." },
                   { icon: <Zap className="w-12 h-12" />, title: "Functional", desc: "Beautiful is useless without utility. Every animation, every interaction serves the user." },
-                  { icon: <Target className="w-12 h-12" />, title: "Memorable", desc: "Stand out without screaming. Subtle details that make you go 'wait, that's cool'." },
+                  { icon: <Target className="w-12 h-12" />, title: "Memorable", desc: "Stand out without screaming. Subtle details that make you go &apos;wait, that&apos;s cool&apos;." },
                 ];
                 return (
                   <div key={index} className="grid md:grid-cols-3 gap-6 my-8">
@@ -356,7 +356,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                       <div key={i} className="relative p-8 border-2 border-primary/20 rounded-2xl hover:border-primary/50 transition-all group">
                         <div className="text-primary mb-4">{p.icon}</div>
                         <h4 className="text-2xl font-bold text-primary mb-3">{p.title}</h4>
-                        <p className="text-accent/70 italic">"{p.desc}"</p>
+                        <p className="text-accent/70 italic">&ldquo;{p.desc}&rdquo;</p>
                         <div className="absolute top-4 right-4 text-primary/10 text-8xl font-bold group-hover:text-primary/20 transition-colors">{i + 1}</div>
                       </div>
                     ))}

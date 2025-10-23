@@ -127,7 +127,7 @@ export default function Blog() {
             More posts coming soon! 📝
           </p>
           <p className="text-accent/50 font-sans">
-            I'm constantly learning and sharing my journey.
+            I&apos;m constantly learning and sharing my journey.
           </p>
         </motion.div>
       </div>
