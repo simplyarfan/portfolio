@@ -16,106 +16,164 @@ const blogPosts: Record<string, {
 }> = {
   "from-nobody-to-somebody": {
     title: "From Nobody to Somebody: My University Journey",
-    date: "October 10, 2025",
-    readTime: "8 min read",
+    date: "October 25, 2025",
+    readTime: "6 min read",
     tags: ["Personal Growth", "Leadership", "University Life"],
     heroImage: "/images/blog_nobody.png",
     content: (
       <>
         <p className="text-accent/80 leading-relaxed text-lg">
-          Looking back at my school days, I was... nobody. Not in a dramatic, movie-protagonist way—just genuinely invisible. No competitions, no sports teams, no leadership roles. I existed, attended classes, went home. That was it.
+          High school me was the human equivalent of wallpaper. No competitions. No sports. No clubs. Just existing, showing up, going home. I wasn't bullied or anything dramatic—I was just <em>there</em>.
         </p>
 
         <h2 className="text-3xl font-bold text-primary mt-12 mb-6">
-          The Wake-Up Call
+          Rock Bottom (Population: Me)
         </h2>
 
         <p className="text-accent/80 leading-relaxed">
-          University hit different. Maybe it was the fresh start, or maybe I just got tired of being a background character in my own life. I started saying "yes" to things—club meetings, volunteer opportunities, random events I had no business attending.
+          Then university happened. During a <em>global pandemic</em>. In a <em>different country</em>. Living <em>alone</em> for the first time. No pressure, right?
         </p>
 
         <p className="text-accent/80 leading-relaxed">
-          The transformation wasn't overnight. It was awkward conversations, failed initiatives, and a lot of imposter syndrome. But slowly, people started knowing my name. Then my face. Then what I stood for.
+          First semester destroyed me. COVID turned campus into a ghost town. My grades tanked. I was drowning, questioning everything—my choices, my capabilities, whether I even belonged there.
         </p>
 
         <h2 className="text-3xl font-bold text-primary mt-12 mb-6">
-          Building Something Real
+          The Lightbulb Moment
         </h2>
 
         <p className="text-accent/80 leading-relaxed">
-          I took on roles that scared me. Led projects I had no idea how to execute. Made mistakes publicly and learned even more publicly. The university became my playground for growth, and I stopped caring about looking stupid—because growth always looks a little stupid at first.
+          Somewhere between failed assignments and lonely nights, I had an epiphany:
+        </p>
+
+        <p className="text-accent/80 leading-relaxed font-semibold">
+          <strong>The problem wasn't the pandemic, the new country, or being alone. The problem was my thinking.</strong>
+        </p>
+
+        <p className="text-accent/80 leading-relaxed">
+          I was stuck in what psychologists call an "external locus of control"—blaming everything around me for how my life was going. But the moment I shifted to an <strong className="text-primary">internal locus of control</strong>—realizing <em>I</em> had the power to change my situation—everything clicked.
+        </p>
+
+        <p className="text-accent/80 leading-relaxed">
+          I stopped asking "Why is this happening to me?" and started asking "What can I do about this?"
+        </p>
+
+        <p className="text-accent/80 leading-relaxed font-semibold text-primary">
+          Game changer.
+        </p>
+
+        <h2 className="text-3xl font-bold text-primary mt-12 mb-6">
+          The Comeback
+        </h2>
+
+        <p className="text-accent/80 leading-relaxed">
+          Second semester? Different beast. My GPA soared. I was studying smarter, working harder, and actually believing I could do it. Confidence isn't something you're born with—it's something you build, one small win at a time.
+        </p>
+
+        <p className="text-accent/80 leading-relaxed">
+          Then, beginning of second year, I met them—the greatest group of chaotic, brilliant, unhinged humans I've ever known. They'd plan adventures at 2 AM and ace exams the next day. They were fun, smart, adventurous, and they made me realize I could be all those things too.
         </p>
 
         <div className="bg-primary/10 border-l-4 border-primary p-6 my-8 rounded-r-lg">
           <p className="text-primary italic text-lg">
-            "The person who knows 'how' will always have a job. The person who knows 'why' will always be their boss. But the person who's willing to learn both? They'll change the game."
+            Iron sharpens iron. And my friends? They turned me into a damn sword.
           </p>
         </div>
+
+        <h2 className="text-3xl font-bold text-primary mt-12 mb-6">
+          From Wallpaper to Main Character
+        </h2>
+
+        <p className="text-accent/80 leading-relaxed">
+          With my new mindset and incredible people around me, I stopped sitting on the sidelines:
+        </p>
+
+        <ul className="space-y-3 text-accent/80 my-6">
+          <li><strong className="text-primary">Residential Assistant</strong> → Helping students navigate university life</li>
+          <li><strong className="text-primary">AUSMUN External Relations Officer → Deputy Director</strong> → Organizing Model UN conferences</li>
+          <li><strong className="text-primary">VP → President of Neuroscience Society</strong> → Events, trips to theme parks, making neuroscience fun</li>
+          <li><strong className="text-primary">Ecology Representative</strong> → Promoting sustainable living in residential halls</li>
+        </ul>
+
+        <p className="text-accent/80 leading-relaxed">
+          And then the big one: <strong className="text-primary">Student Council.</strong>
+        </p>
 
         <h2 className="text-3xl font-bold text-primary mt-12 mb-6">
           The Student Council Campaign
         </h2>
 
         <p className="text-accent/80 leading-relaxed">
-          When I decided to run for student council, people thought I was crazy. The kid who did nothing in school was now running for one of the most visible positions on campus? But I had built something real—relationships, trust, a track record of actually showing up.
+          Running for student council? <em>Me?</em> The kid who couldn't even raise his hand in high school was now running for one of the most visible positions on campus? Yeah, I didn't believe it either.
         </p>
 
         <p className="text-accent/80 leading-relaxed">
-          The campaign was intense. Late nights, endless meetings, posters everywhere. And the support? Mind-blowing. Around 1,000 people backed me. One thousand people who believed in the vision, who saw the work I'd put in, who wanted to see what we could build together.
+          The campaign was insane—late nights, posters everywhere, my face plastered around campus. Election day came.
+        </p>
+
+        <p className="text-accent/80 leading-relaxed font-semibold">
+          <strong>I lost.</strong>
+        </p>
+
+        <p className="text-accent/80 leading-relaxed">
+          But <strong className="text-primary">around one thousand people voted for me.</strong> People who believed in what I stood for. People who saw me and said, "Yeah, this guy."
+        </p>
+
+        <p className="text-accent/80 leading-relaxed">
+          Losing stung. But it taught me: <strong className="text-primary">I had a voice. I had influence. I was <em>somebody</em>.</strong>
         </p>
 
         <h2 className="text-3xl font-bold text-primary mt-12 mb-6">
-          The Loss That Taught Me Everything
+          The Real Epiphany
         </h2>
 
         <p className="text-accent/80 leading-relaxed">
-          I lost. And honestly? It stung. A lot. But here's what losing taught me that winning never could:
+          Writing this made me realize something bigger: <strong className="text-primary">Nobody is actually a "nobody."</strong>
+        </p>
+
+        <p className="text-accent/80 leading-relaxed">
+          Everyone is already "somebody"—they just don't see it yet. You don't need a title to matter. You don't need to win to have impact.
+        </p>
+
+        <p className="text-accent/80 leading-relaxed">
+          You just need three things:
         </p>
 
         <ul className="space-y-4 text-accent/80 my-6">
           <li className="flex items-start gap-3">
-            <span className="text-primary mt-1">•</span>
-            <span><strong className="text-primary">Impact isn't measured by titles.</strong> The work I did, the people I helped, the changes I pushed for—none of that disappeared because I didn't win an election.</span>
+            <span className="text-primary mt-1">1.</span>
+            <span><strong className="text-primary">Internal locus of control</strong> – Take ownership of your life. You're the author.</span>
           </li>
           <li className="flex items-start gap-3">
-            <span className="text-primary mt-1">•</span>
-            <span><strong className="text-primary">Support is more valuable than victory.</strong> 1,000 people believed in me. That's not a consolation prize—that's a community.</span>
+            <span className="text-primary mt-1">2.</span>
+            <span><strong className="text-primary">Positive mindset</strong> – Real positivity. The kind that says, "This sucks, but I can handle it."</span>
           </li>
           <li className="flex items-start gap-3">
-            <span className="text-primary mt-1">•</span>
-            <span><strong className="text-primary">The journey matters more than the destination.</strong> The person I became through that campaign was worth more than any position.</span>
+            <span className="text-primary mt-1">3.</span>
+            <span><strong className="text-primary">Good people</strong> – Find your tribe. The ones who challenge and support you.</span>
           </li>
         </ul>
 
         <h2 className="text-3xl font-bold text-primary mt-12 mb-6">
-          What I'd Tell My School Self
+          The Takeaway
         </h2>
 
         <p className="text-accent/80 leading-relaxed">
-          You don't need to be somebody to start. You just need to start. Every person you admire was once exactly where you are—invisible, uncertain, waiting for permission that's never coming.
+          You are not your circumstances. Mindset is everything. Surround yourself with excellence. Take the leap, even if you might fail.
         </p>
 
         <p className="text-accent/80 leading-relaxed">
-          The difference between nobody and somebody isn't talent or luck or connections. It's deciding that your current chapter doesn't define your whole story. It's showing up when it's uncomfortable. It's building when no one's watching.
+          And remember: <strong className="text-primary">You're already somebody. You always were.</strong>
         </p>
 
         <div className="bg-black/50 rounded-xl p-8 border border-primary/20 my-12">
-          <h3 className="text-2xl font-bold text-primary mb-4">Key Takeaways</h3>
-          <ul className="space-y-3 text-accent/80">
-            <li>• Start before you're ready. You'll never feel ready.</li>
-            <li>• Build relationships, not just a resume.</li>
-            <li>• Losing teaches you more than winning ever will.</li>
-            <li>• Your impact isn't defined by titles or positions.</li>
-            <li>• The person you become matters more than what you achieve.</li>
-          </ul>
+          <p className="text-accent/80 leading-relaxed text-lg italic">
+            From <em>thinking</em> I was nobody to <em>realizing</em> I was always somebody—that's the real journey.
+          </p>
         </div>
 
-        <p className="text-accent/80 leading-relaxed text-lg">
-          From nobody to somebody isn't a straight line. It's messy, uncomfortable, and full of setbacks. But it's also the most worthwhile journey you'll ever take. Because at the end, you're not just somebody—you're authentically, unapologetically yourself.
-        </p>
-
-        <p className="text-accent/80 leading-relaxed text-lg mt-6">
-          And that's worth more than any election.
+        <p className="text-accent/80 leading-relaxed text-lg mt-8">
+          Now go be somebody. (Spoiler: you already are.)
         </p>
       </>
     ),
