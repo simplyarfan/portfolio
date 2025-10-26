@@ -250,7 +250,7 @@ export default function About() {
               </p>
               <p className="text-xl text-accent/70 leading-relaxed" style={{ fontFamily: "var(--font-space-grotesk), sans-serif" }}>
                 I&apos;m passionate about creating <span className="text-primary">unique digital experiences</span> that are minimal, functional, and memorable. 
-                Whether it&apos;s crafting smooth animations, building interactive elements, or just making things look and feel awesome, I&apos;m always up for the challenge.
+                Whether it&apos;s building AI/ML solutions, crafting smooth animations, or creating interactive experiences, I&apos;m always up for the challenge.
               </p>
             </div>
             <div className="relative h-[400px] rounded-xl border border-primary/20 overflow-hidden">
