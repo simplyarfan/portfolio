@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import MainContent from "@/components/MainContent";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import ChatBot from "@/components/ChatBot";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
@@ -33,8 +34,8 @@ const bungee = Bungee({
 
 export const metadata: Metadata = {
   title: "Syed Arfan Hussain - Portfolio",
-  description: "Personal portfolio website of Syed Arfan Hussain - Developer, Creator, and Tech Enthusiast",
-  keywords: ["Syed Arfan Hussain", "Portfolio", "Developer", "Web Development"],
+  description: "Personal portfolio website of Syed Arfan Hussain - AI/ML Engineer, Developer, and Tech Enthusiast",
+  keywords: ["Syed Arfan Hussain", "Portfolio", "Developer", "Web Development", "AI/ML Engineer"],
   authors: [{ name: "Syed Arfan Hussain" }],
   openGraph: {
     title: "Syed Arfan Hussain - Portfolio",
@@ -62,6 +63,7 @@ export default function RootLayout({
           </main>
           <Footer />
         </MainContent>
+        <ChatBot />
       </body>
     </html>
   );
