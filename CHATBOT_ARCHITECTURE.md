@@ -1,6 +1,6 @@
 # Portfolio Chatbot - Architecture & Implementation
 
-## 🏗️ System Architecture
+## ★ System Architecture
 
 ### Overview
 A RAG (Retrieval-Augmented Generation) chatbot built with Next.js 14, using Groq's Llama 3.3-70b for intelligent responses about Arfan's portfolio.
@@ -18,7 +18,7 @@ Icons: Lucide React
 
 ---
 
-## 🔄 Request Flow
+## ★ Request Flow
 
 ```
 User Message → ChatBot.tsx (Frontend)
@@ -86,7 +86,7 @@ User Message → ChatBot.tsx (Frontend)
 
 ---
 
-## 📚 Knowledge Base Structure
+## ★ Knowledge Base Structure
 
 ### Files Location
 `lib/knowledge-base/*.json`
@@ -134,9 +134,7 @@ User Message → ChatBot.tsx (Frontend)
 
 ---
 
-## 🤖 LLM System Prompt
-
-Following SecureMax IT Support style:
+## ★ LLM System Prompt
 
 ```
 You are Arf, a helpful AI/ML Engineer working as a personal assistant on Syed Arfan Hussain's portfolio website.
@@ -215,7 +213,7 @@ dangerouslySetInnerHTML={{
 
 ---
 
-## 📊 Retrieval Algorithm
+## ★ Retrieval Algorithm
 
 ### Keyword-Based Scoring
 
@@ -250,7 +248,7 @@ function retrieveRelevantDocs(query: string, topK: number): Document[] {
 
 ---
 
-## 🚀 Deployment
+## ★ Deployment
 
 ### Vercel Configuration
 ```json
@@ -276,7 +274,7 @@ API routes run on Vercel Edge for:
 
 ---
 
-## 🔧 Configuration
+## ★ Configuration
 
 ### Response Tuning
 ```typescript
@@ -298,7 +296,7 @@ const ASSISTANT_NAME = "Arfan - AI/ML Engineer";
 
 ---
 
-## 📈 Performance
+## ★ Performance
 
 ### Metrics
 - **Response Time**: ~500ms (Groq API)
@@ -314,7 +312,7 @@ const ASSISTANT_NAME = "Arfan - AI/ML Engineer";
 
 ---
 
-## 🎨 UI Components
+## ★ UI Components
 
 ### ChatBot.tsx Structure
 ```
@@ -344,7 +342,7 @@ transition={{ duration: 0.3, delay: index * 0.05 }}
 
 ---
 
-## 🔒 Security
+## ★ Security
 
 ### API Key Protection
 - Stored in `.env.local`
@@ -363,7 +361,7 @@ transition={{ duration: 0.3, delay: index * 0.05 }}
 
 ---
 
-## 🐛 Error Handling
+## ★ Error Handling
 
 ### API Errors
 ```typescript
@@ -399,7 +397,7 @@ try {
 
 ---
 
-## 🧪 Testing
+## ★ Testing
 
 ### Test Coverage
 - ✅ Name extraction
@@ -418,7 +416,7 @@ try {
 
 ---
 
-## 📦 File Structure
+## ★ File Structure
 
 ```
 portfolio/
@@ -442,7 +440,7 @@ portfolio/
 
 ---
 
-## 🎓 Key Learnings
+## ★ Key Learnings
 
 ### What Worked Well
 - ✅ Simple keyword matching (good enough)
@@ -460,7 +458,7 @@ portfolio/
 
 ---
 
-## 📞 Support
+## ★ Support
 
 For questions or issues:
 - LinkedIn: https://linkedin.com/in/syedarfan
