@@ -22,6 +22,14 @@ const allProjects = [
     award: "Built with Windsurf + Claude Sonnet",
   },
   {
+    slug: "portfolio-chatbot",
+    title: "Portfolio Chatbot",
+    description: "Intelligent RAG chatbot with Groq Llama 3.3-70b for personalized portfolio interactions",
+    year: "2025",
+    tags: ["Next.js", "RAG", "Groq API", "AI/ML", "LLM"],
+    award: "Built with Windsurf + Claude Sonnet 3.5",
+  },
+  {
     slug: "portfolio",
     title: "Personal Portfolio",
     description: "Modern portfolio website showcasing projects and technical expertise",
@@ -38,9 +46,9 @@ export default function Projects() {
       <section className="relative pt-32 pb-8 px-6 mb-20">
         <div className="max-w-7xl mx-auto">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
             className="text-center"
           >
             <h1 className="text-6xl md:text-8xl text-primary mb-4 tracking-tight" style={{ fontFamily: "var(--font-bungee), Impact, sans-serif", fontWeight: 400 }}>
@@ -67,10 +75,10 @@ export default function Projects() {
           {allProjects.map((project, index) => (
             <Link key={project.slug} href={`/projects/${project.slug}`}>
               <motion.div
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
+                viewport={{ once: true, margin: "-100px" }}
+                transition={{ duration: 0.8, delay: index * 0.15, ease: "easeOut" }}
                 className="group border border-primary/20 rounded-2xl p-8 hover:border-primary/50 hover:bg-primary/5 transition-all duration-300 h-full flex flex-col"
               >
                 {/* Award Badge */}

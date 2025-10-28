@@ -1,0 +1,67 @@
+{
+  "skills": {
+    "languages": [
+      "Python - Expert level, primary language for AI/ML",
+      "JavaScript - Advanced, used for full-stack development",
+      "TypeScript - Advanced, preferred for type-safe applications",
+      "C - Intermediate, used for systems programming",
+      "C++ - Intermediate, used for performance-critical applications",
+      "HTML5 - Expert, web development",
+      "CSS3 - Advanced, modern styling and animations"
+    ],
+    "frameworks_libraries": [
+      "React - Expert, building modern web applications",
+      "Next.js - Expert, full-stack React framework",
+      "Node.js - Advanced, backend JavaScript runtime",
+      "Express.js - Advanced, web application framework",
+      "Django - Advanced, Python web framework",
+      "FastAPI - Expert, modern Python API framework",
+      "Tailwind CSS - Expert, utility-first CSS framework",
+      "Framer Motion - Advanced, animation library"
+    ],
+    "ai_ml": [
+      "LangChain - Expert, building LLM applications",
+      "OpenAI API - Expert, GPT integration",
+      "Claude API - Advanced, Anthropic's AI models",
+      "Gemini - Advanced, Google's AI models",
+      "Mistral - Advanced, open-source LLMs",
+      "TensorFlow - Intermediate, machine learning framework",
+      "PyTorch - Intermediate, deep learning framework",
+      "RAG Systems - Expert, retrieval-augmented generation",
+      "Prompt Engineering - Expert, optimizing LLM outputs",
+      "Vector Databases - Expert, Pinecone, ChromaDB",
+      "MLOps - Advanced, ML deployment and monitoring",
+      "Fine-tuning LLMs - Advanced, domain-specific models"
+    ],
+    "cloud_databases": [
+      "PostgreSQL - Advanced, relational database",
+      "Azure - Advanced, cloud platform",
+      "Vercel - Expert, deployment platform",
+      "Supabase - Advanced, backend as a service",
+      "Firebase - Advanced, Google's app platform",
+      "AWS - Intermediate, cloud services",
+      "Pinecone - Expert, vector database",
+      "ChromaDB - Advanced, vector database"
+    ],
+    "tools_platforms": [
+      "Git - Expert, version control",
+      "GitHub - Expert, code hosting and collaboration",
+      "Docker - Intermediate, containerization",
+      "Azure DevOps - Advanced, CI/CD pipelines",
+      "Postman - Advanced, API testing",
+      "Notion - Advanced, documentation and planning",
+      "Figma - Intermediate, UI/UX design",
+      "Windsurf - Advanced, AI-powered IDE"
+    ],
+    "specializations": [
+      "RAG-Based Chatbot Systems - Expert level with production experience",
+      "Full-Stack Development - Expert, end-to-end application development",
+      "Cloud Architecture - Advanced, scalable system design",
+      "Robotics Integration - Intermediate, embedded systems",
+      "Real-time Systems - Advanced, WebSockets and live data",
+      "API Design - Expert, RESTful and GraphQL APIs",
+      "Performance Optimization - Advanced, speed and efficiency",
+      "Accessibility - Intermediate, inclusive design"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "basic_info": {
+    "name": "Syed Arfan Hussain",
+    "title": "AI/ML Engineer & Full-Stack Developer",
+    "location": "Saudi Arabia",
+    "birthday": "July 12, 2003",
+    "age": 22,
+    "phone": "+966 57 017 1269",
+    "website": "https://syedarfan.vercel.app",
+    "linkedin": "https://linkedin.com/in/syedarfan",
+    "instagram": "https://instagram.com/simplyarfan",
+    "github": "https://github.com/simplyarfan",
+    "youtube": "https://youtube.com/@simplyarfan"
+  },
+  "current_role": {
+    "company": "SecureMax Technologies",
+    "position": "AI/ML Engineer",
+    "description": "Design and deploy smart systems that bridge machine learning, full-stack development, and cloud infrastructure. Build internal AI tools, full-scale automation pipelines, and integrate tools like ChatGPT, Claude, Gemini, and Mistral."
+  },
+  "education": {
+    "university": "American University of Sharjah",
+    "degree": "Computer Engineering",
+    "graduation_date": "June 2025",
+    "graduation_year": "2025"
+  },
+  "interests": {
+    "professional": [
+      "Building AI systems that integrate with full-stack environments",
+      "Cloud computing and scalable architecture",
+      "Robotics and embedded systems",
+      "MLOps, prompt engineering, and self-hosted AI tools",
+      "Experimenting with new frameworks and automation"
+    ],
+    "personal": [
+      "Gaming competitively - Valorant (Ascendent 2 rank)",
+      "YouTube content creation and vlogging",
+      "Building startups and side projects",
+      "Coding and experimenting with new tech",
+      "Working out at the gym",
+      "Customizing setups on Vercel and Azure",
+      "Exploring new technology and frameworks"
+    ],
+    "favorites": {
+      "colors": ["Maroon", "Black"],
+      "games": ["Valorant"],
+      "tech_stack": ["Next.js", "React", "Python", "TypeScript"]
+    }
+  },
+  "aspirations": [
+    "Launch own startup focused on AI innovation",
+    "Grow YouTube channel with tech content",
+    "Build innovative AI products that solve real problems",
+    "Contribute to open-source AI/ML projects"
+  ],
+  "about": "I build things that think. I'm a 22-year-old AI/ML Engineer at SecureMax Technologies, where I design and deploy smart systems that bridge machine learning, full-stack development, and cloud infrastructure. I graduated from the American University of Sharjah in June 2025 with a degree in Computer Engineering, and since then I've been obsessed with creating solutions that actually do something — from internal AI tools to full-scale automation pipelines. My work lives at the intersection of AI, cloud, and robotics. I spend most of my time experimenting with new frameworks, integrating tools like ChatGPT, Claude, Gemini, and Mistral, and constantly refining how systems learn, scale, and interact. When I'm not knee-deep in code, you'll usually find me building side projects for fun, customizing setups on Vercel or Azure, or breaking and fixing my own deployments just to understand them better. Outside of work, I enjoy exploring new tech and gaming competitively. Born on July 12, 2003, I'm passionate about innovation and love the colors maroon and black.",
+  "personality": {
+    "traits": ["Innovative", "Curious", "Competitive", "Detail-oriented", "Self-driven"],
+    "work_style": "Hands-on experimenter who learns by building and breaking things",
+    "motto": "I build things that think"
+  }
+}

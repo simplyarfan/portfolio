@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "name": "LenScript",
+      "description": "Smart Glasses for Real-Time Transcription and Emotional Awareness",
+      "technologies": ["Swift", "iOS", "CoreML", "AR Glasses", "Accessibility"],
+      "achievement": "Senior Design Capstone Project 2024",
+      "highlights": [
+        "Real-time speech transcription displayed on AR glasses",
+        "Emotional awareness features for better communication",
+        "Built for accessibility and assistive technology",
+        "iOS app with CoreML integration"
+      ],
+      "impact": "Helps people with hearing impairments and enhances communication through emotional context"
+    },
+    {
+      "name": "Nexus AI Hub",
+      "description": "Enterprise AI Platform for HR, Finance & Sales Intelligence",
+      "technologies": ["Next.js", "AI/ML", "Enterprise", "Full-Stack"],
+      "achievement": "Built with Windsurf + Claude Sonnet 2025",
+      "highlights": [
+        "AI-powered enterprise platform for business intelligence",
+        "Integrated HR, Finance, and Sales analytics",
+        "Full-stack Next.js application",
+        "Modern AI/ML integration"
+      ],
+      "impact": "Streamlines enterprise operations with intelligent automation and insights"
+    },
+    {
+      "name": "Personal Portfolio",
+      "description": "Modern portfolio website showcasing projects and technical expertise",
+      "technologies": ["Next.js", "React", "Framer Motion", "TailwindCSS"],
+      "achievement": "Built with Windsurf + Claude Sonnet 3.5 2025",
+      "github": "https://github.com/simplyarfan/portfolio",
+      "highlights": [
+        "Interactive 3D globe background with Vanta.js",
+        "Smooth animations with Framer Motion",
+        "Fully responsive modern design",
+        "Deployed on Vercel"
+      ],
+      "impact": "Professional showcase of skills and projects with modern web technologies"
+    }
+  ]
+}
