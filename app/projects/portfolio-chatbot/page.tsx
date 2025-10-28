@@ -323,8 +323,9 @@ export default function PortfolioChatbotProject() {
               Detailed architecture, implementation guide, and technical specifications available in the project documentation.
             </p>
             <a
-              href="/CHATBOT_ARCHITECTURE.md"
+              href="https://github.com/simplyarfan/portfolio/blob/main/CHATBOT_ARCHITECTURE.md"
               target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-black rounded-lg hover:bg-secondary transition-colors font-medium"
             >
               <span>View Full Documentation</span>
